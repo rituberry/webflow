@@ -36,7 +36,7 @@ auth.onAuthStateChanged(user => {
         if (publicPages.includes(currentPath)) {
             window.location.replace('/');
         } else {
-            //console.log('User is logged in!');
+            //console.log('User logged in!');
             //console.log('logged in Email:' + user.email);
             navSignupbtn.style.display = 'none';
             loginLink.style.display = 'none';
