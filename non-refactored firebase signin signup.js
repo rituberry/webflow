@@ -2,7 +2,6 @@
 Import these first for Firebase to work
 https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js
 https://www.gstatic.com/firebasejs/8.6.3/firebase-auth.js
-
 */
 const firebaseConfig = {
     apiKey: "AIzaSyAX0S0Bc2cXJzFrwpyNFceliiEOhU9mNdE",
@@ -20,7 +19,6 @@ firebase.initializeApp(firebaseConfig);
 
 const auth = firebase.auth();
 //import { getAuth, onAuthStateChanged } from "firebase/auth";
-//const auth = getAuth();
 var privatePages = [
     '/payment',
     '/details'
