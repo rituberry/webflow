@@ -18,7 +18,6 @@ firebase.initializeApp(firebaseConfig);
 
 
 const auth = firebase.auth();
-//import { getAuth, onAuthStateChanged } from "firebase/auth";
 var privatePages = [
     '/payment',
     '/details'
